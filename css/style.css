@@ -1,0 +1,24 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	background:url(http://upload.wikimedia.org/wikipedia/commons/1/16/Appearance_of_sky_for_weather_forecast,_Dhaka,_Bangladesh.JPG); /* Nuestra imagen de fondo */
+	background-size: cover;
+}
+
+.globo, .globo2{
+	min-height: 2000px;
+	background-image: url(../img/globo.png);
+	background-repeat: no-repeat;
+	background-position-x: center; 
+	background-position-y: 400px; 
+}
+
+.globo2{
+	background-image: url(../img/globo2.png);
+	background-position-x:100px; 
+	background-position-y: 900px; 
+}
